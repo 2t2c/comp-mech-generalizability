@@ -21,7 +21,7 @@ DOMAINS = ['Adult', 'Arts_and_Entertainment', 'Autos_and_Vehicles', 'Beauty_and_
            'Online_Communities', 'People_and_Society', 'Pets_and_Animals', 'Real_Estate', 'Science',
            'Sensitive_Subjects', 'Shopping', 'Sports', 'Travel_and_Transportation']
 
-st.title(":violet[Competition of Mechanisms]")
+st.title(":violet[On the Generalizability of "Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals"]")
 st.markdown("""
 Visualization of Experiments
  - Logit Lens
