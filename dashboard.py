@@ -23,7 +23,7 @@ DOMAINS = ['Adult', 'Arts_and_Entertainment', 'Autos_and_Vehicles', 'Beauty_and_
 
 st.title(':violet[On the Generalizability of "Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals"]')
 
-st.image("comp.png")
+st.image("https://github.com/user-attachments/assets/8a5a8717-3707-468d-844c-dc386f864994")
 
 st.markdown("""
 Visualization of Experiments
