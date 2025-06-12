@@ -10,8 +10,16 @@ import streamlit as st
 import glob
 import uuid
 from streamlit_pdf_viewer import pdf_viewer
-sys.path.append(os.path.abspath(os.path.join("src")))
-from dataset import DOMAINS
+# sys.path.append(os.path.abspath(os.path.join("src")))
+# from dataset import DOMAINS
+
+# hotfix for deployment
+DOMAINS = ['Adult', 'Arts_and_Entertainment', 'Autos_and_Vehicles', 'Beauty_and_Fitness',
+           'Books_and_Literature', 'Business_and_Industrial', 'Computers_and_Electronics', 'Finance',
+           'Food_and_Drink', 'Games', 'Health', 'Hobbies_and_Leisure', 'Home_and_Garden',
+           'Internet_and_Telecom', 'Jobs_and_Education', 'Law_and_Government', 'News',
+           'Online_Communities', 'People_and_Society', 'Pets_and_Animals', 'Real_Estate', 'Science',
+           'Sensitive_Subjects', 'Shopping', 'Sports', 'Travel_and_Transportation']
 
 st.title(":violet[Competition of Mechanisms]")
 st.markdown("""
